@@ -39,6 +39,9 @@ srcs-y += memcpy_chk.c
 srcs-y += fprintf_chk.c
 srcs-y += assert_fail.c
 srcs-y += explicit_bzero_chk.c
+srcs-y += strcasecmp.c
+srcs-y += fprintf.c
+srcs-y += explicit_bzero.c
 endif
 
 subdirs-y += newlib
