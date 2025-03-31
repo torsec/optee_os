@@ -781,7 +781,7 @@ CFG_SHOW_CONF_ON_BOOT ?= n
 # Enables support for passing a TPM Event Log stored in secure memory
 # to a TA or FF-A SP, so a TPM Service could use it to extend any measurement
 # taken before the service was up and running.
-CFG_CORE_TPM_EVENT_LOG ?= n
+CFG_CORE_TPM_EVENT_LOG ?= y
 
 # When enabled, CFG_SCMI_MSG_DRIVERS embeds SCMI message drivers in the core.
 # Refer to the supported SCMI features embedded upon CFG_SCMI_MSG_*
