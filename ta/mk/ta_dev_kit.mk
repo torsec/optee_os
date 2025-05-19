@@ -90,6 +90,8 @@ libdeps += $(ta-dev-kit-dir$(sm))/lib/libmbedtls.a
 endif
 libnames += dl
 libdeps += $(ta-dev-kit-dir$(sm))/lib/libdl.a
+libnames += oqs
+libdeps += $(ta-dev-kit-dir$(sm))/lib/liboqs.a
 
 # libutils provides __getauxval symbol which is needed by libgcc 10.x. We can't
 # link libutils after libgcc, because libgcc will replace some symbols provided
