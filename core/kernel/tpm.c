@@ -10,7 +10,7 @@
 #include <mm/core_memprot.h>
 #include <string.h>
 
-#define CFG_TPM_MAX_LOG_SIZE 693
+#define CFG_TPM_MAX_LOG_SIZE 617
 #define CFG_TPM_LOG_BASE_ADDR 0x79640000
 
 static void *tpm_log_addr;
